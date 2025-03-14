@@ -1,17 +1,18 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
 }
 main {
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
-  align-items: center;
-  height: 100vh;
+  align-items: start;
+  height: auto;
   width: 100%;
   background-color: #f8edeb;
-  
+  padding: 24px;
+  overflow: hidden;
 }
 nav {
   display: flex;
@@ -23,26 +24,48 @@ nav img {
   width: 15%;
   height: 15%;
 }
-.cart{
+.cart {
   display: flex;
   flex-direction: column;
   width: 50vh;
-  background-color: #c53c24;
+  background-color: #ffd6ff;
+  margin-right: 64px;
+  padding: 24px;
+  margin-top: 64px;
+  border-radius: 16px;
 }
-.products_container{
+
+.products_container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  padding: 16px;
+  padding: 32px;
+  margin-top: 48px;
 }
-.product img{
+.product img {
   width: 50%;
   height: auto;
 }
-.product button{
-  background-color: #E7C6FF;
+.product button {
+  background-color: #e7c6ff;
   padding: 8px;
   border-radius: 8px;
-  
+  cursor: pointer;
+  border: none;
 }
+.div-button {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.div-button button {
+  background-color: #e7c6ff;
+  padding: 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: none;
+  width: 50%;
 
+}
