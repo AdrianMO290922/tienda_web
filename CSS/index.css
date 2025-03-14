@@ -48,10 +48,11 @@ nav img {
 }
 .product button {
   background-color: #e7c6ff;
-  padding: 8px;
+  padding: 16px;
   border-radius: 8px;
   cursor: pointer;
   border: none;
+
 }
 .div-button {
   width: 100%;
