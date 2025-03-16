@@ -6,37 +6,42 @@
     <link rel="stylesheet" href="./CSS/index.css" />
     <title>Tienda de Pasteles</title>
   </head>
-  <body>
+  <body onload="llenarDatos()">
     <main>
-      <div class="products_container">
-        <div class="product">
+      <div class="products_container" id="products_container">
+        <!--
+         <div class="product">
           <img
             src="./assets/pastel-chocolate-mini-01_1800x1800_923894f5-449b-467b-ade8-b4a5d57e5ca0.webp"
           />
           <h3>Pastel de Chocolate</h3>
           <p>Delicioso pastel de chocolate</p>
           <p>$100</p>
-          <button>Agregar al carrito</button>
+          <div class="stock">10</div>
+          <button id="boton_pastel_chocolate_blanco">Agregar al carrito</button>
         </div>
         <div class="product">
           <img src="./assets/pastel_chocolate_blanco.webp" />
           <h3>Pastel de chocolate blanco</h3>
           <p>Delicioso pastel de chocolate blanco</p>
-          <p>$100</p>
+          <p>$170</p>
+          <div class="stock">5</div>
           <button id="boton_pastel_chocolate_blanco">Agregar al carrito</button>
         </div>
         <div class="product">
           <img src="./assets/pastel_cokee.webp" />
           <h3>Pastel de cookies & cream</h3>
           <p>Delicioso pastel de cookies & cream</p>
-          <p>$100</p>
+          <p>$150</p>
+          <div class="stock">7</div>
           <button id="boton_pastel_cookies_cream">Agregar al carrito</button>
         </div>
         <div class="product">
           <img src="./assets/pastel_seth.webp" />
           <h3>Pastel de Seth</h3>
           <p>Delicioso pastel de Seth</p>
-          <p>$100</p>
+          <p>$125</p>
+          <div class="stock">7</div>
           <button id="boton_pastel_seth">Agregar al carrito</button>
         </div>
         <div class="product">
@@ -44,6 +49,7 @@
           <h3>Pastel de Zanahoria</h3>
           <p>Delicioso pastel de Zanahoria</p>
           <p>$100</p>
+          <div class="stock">1</div>
           <button id="boton_pastel_zanahoria">Agregar al carrito</button>
         </div>
         <div class="product">
@@ -51,16 +57,26 @@
           <h3>Pastel de tres leches</h3>
           <p>Delicioso pastel de tres leches</p>
           <p>$100</p>
+          <div class="stock">10</div>
           <button id="boton_pastel_tres_leches">Agregar al carrito</button>
         </div>
+        
+        -->
+       
       </div>
       <aside class="cart">
         Productos en el carrito
-        <h4>Total: $0</h4>
+        <div class="carrito_container">
+          <h4>Total:$</h4>
+          <h4 id="carrito">0</h4>
+        </div>
+       
+        
         <div class="div-button">
-          <button id="pay-button">Pagar</button>
+          <button id="pay-button" onclick = "felicitarCompra()">Pagar</button>
         </div>
       </aside>
     </main>
+    <script src="./JS/index.js"></script>
   </body>
 </html>

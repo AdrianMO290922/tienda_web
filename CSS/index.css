@@ -70,3 +70,15 @@ nav img {
   width: 50%;
 
 }
+.stock{
+  background-color: #fff;
+  padding:4px;
+  width: 25%;
+  margin-bottom: 16px;
+  border: 2px solid #e7c6ff;
+  border-radius: 4px;
+  font: bold;
+}
+.carrito_container{
+  display: flex;
+}
