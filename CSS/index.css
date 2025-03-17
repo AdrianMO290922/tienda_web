@@ -9,7 +9,7 @@ main {
   justify-content: space-evenly;
   align-items: start;
   height: auto;
-  width: 100%;
+  
   background-color: #f8edeb;
   padding: 24px;
   overflow: hidden;
@@ -58,7 +58,6 @@ nav img {
   border-radius: 8px;
   cursor: pointer;
   border: none;
-
 }
 .div-button {
   width: 100%;
@@ -74,29 +73,26 @@ nav img {
   cursor: pointer;
   border: none;
   width: 100%;
-
 }
-.stock{
+.stock {
   background-color: #fff;
-  padding:4px;
+  padding: 4px;
   width: 25%;
   margin-bottom: 16px;
   border: 2px solid #e7c6ff;
   border-radius: 4px;
   font: bold;
 }
-.carrito_container{
+.carrito_container {
   display: flex;
 }
-footer{
-
-  width: 100%;
-
+footer {
   height: 80%;
   padding: 32px;
   margin-top: 24px;
 }
-.footer_text{
-  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+.footer_text {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
   font-style: oblique;
 }
