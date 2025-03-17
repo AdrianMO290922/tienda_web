@@ -8,6 +8,9 @@
   </head>
   <body onload="llenarDatos()">
     <main>
+      <header>
+        <img src="./assets/logo-removebg-preview.png" />
+      </header>
       <div class="products_container" id="products_container">
         <!--
          <div class="product">
@@ -62,7 +65,6 @@
         </div>
         
         -->
-       
       </div>
       <aside class="cart">
         Productos en el carrito
@@ -70,13 +72,15 @@
           <h4>Total:$</h4>
           <h4 id="carrito">0</h4>
         </div>
-       
-        
+
         <div class="div-button">
-          <button id="pay-button" onclick = "felicitarCompra()">Pagar</button>
+          <button id="pay-button" onclick="felicitarCompra()">Pagar</button>
         </div>
       </aside>
     </main>
+    <footer>
+      <p class="footer_text">Pasteleria Jardim</p>
+    </footer>
     <script src="./JS/index.js"></script>
   </body>
 </html>
